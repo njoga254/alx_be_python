@@ -1,12 +1,16 @@
-task_variable = input("Enter your task: ")
-priority_variable = input("Choose the priority level (high/medium/low): ")
-time_bound_variable = input("Is it time bound? (yes/no): ")
+task = input("Enter your task: ")
+priority = input("Choose the priority level (high/medium/low): ")
+time_bound = input("Is it time bound? (yes/no): ")
+
+task = task
+priority = priority
+time_bound = time_bound
 
 #Process the Task Based on Priority and Time Sensitivity
-reminder = f"Attention! {task_variable} is a {priority_variable} level task."
+reminder = f"Attention! {task} is a {priority} level task."
 
 #match case
-match priority_variable:
+match priority:
     case "high":
         reminder += ("This should be done first.")
     case "medium":
@@ -17,7 +21,7 @@ match priority_variable:
         reminder += ("Wrong input for priority level.")
 
 #modify reminder
-if time_bound_variable == "yes":
+if time_bound == "yes":
     reminder += ("Don't forget it is time sensitive.")
 
 print(reminder)
