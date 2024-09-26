@@ -2,6 +2,7 @@ task = input("Enter your task: ")
 priority = input("Choose the priority level (high/medium/low): ")
 time_bound = input("Is it time bound? (yes/no): ")
 
+print("reminder: This is your task.")
 #match case
 match priority:
     case "high":
