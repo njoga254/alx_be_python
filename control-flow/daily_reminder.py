@@ -1,5 +1,5 @@
 task = input("Enter your task: ")
-priority = input("Choose priority (high/medium/low): ")
+priority = input("Priority (high/medium/low): ")
 time_bound = input("Is it time bound? (yes/no): ")
 
 print("Reminder: This is your task.")
@@ -17,10 +17,9 @@ match priority:
 
 #modify reminder
 if time_bound == "yes":
-    reminder += "Don't forget it is time sensitive."
-else:
-    time_bound == "no"
-    reminder += "Not urgent."
+    reminder += "This requires immediate attention today!"
+elif time_bound == "no":
+    reminder += "Not urgent!"
 
 
 print(reminder)
