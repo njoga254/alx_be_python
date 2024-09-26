@@ -2,6 +2,7 @@ task = input("Enter your task: ")
 priority = input("Priority (high/medium/low): ")
 time_bound = input("Is it time-bound? (yes/no): ")
 
+print("Reminder: This is your task.")
 reminder = f"Reminder: Your task '{task}'."
 #matchcase
 match priority:
