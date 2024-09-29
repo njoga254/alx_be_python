@@ -1,8 +1,8 @@
 # temp_conversion_tool.py
 
 # Global conversion factors
-FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9  # Factor for converting Fahrenheit to Celsius
-CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5   # Factor for converting Celsius to Fahrenheit
+FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9  # Conversion factor for F to C
+CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5   # Conversion factor for C to F
 
 def convert_to_celsius(fahrenheit):
     """
@@ -41,5 +41,6 @@ def main():
 # Run the main function if the script is executed directly
 if __name__ == "__main__":
     main()
+
 
 
