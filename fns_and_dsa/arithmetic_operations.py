@@ -8,6 +8,6 @@ def perform_operation(num1, num2, operation):
             return "Error: Division by zero is impossible"
         else:
             return num1 / num2
-    elif operation == "multiplication":
+    elif operation == "multiply":
         return num1 * num2
 
