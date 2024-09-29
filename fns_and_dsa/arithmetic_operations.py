@@ -1,13 +1,13 @@
 def perform_operation(num1, num2, operation):
-    if operation == "Add":
+    if operation == "add":
         return num1 + num2
-    elif operation == "Subtraction":
+    elif operation == "subtraction":
         return num1 - num2
-    elif operation == "Division":
+    elif operation == "division":
         if num2 == 0:
             return "Error: Division by zero is impossible"
         else:
             return num1 / num2
-    elif operation == "Multiplication":
+    elif operation == "multiplication":
         return num1 * num2
 
