@@ -1,6 +1,6 @@
 #shopping_list
 def display_menu():
-    print(" Shopping list Menu")
+    print("\n--- Shopping list Menu ---")
     print("1. Add item")
     print("2. Remove item")
     print("3. View the list")
