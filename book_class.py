@@ -1,4 +1,4 @@
-# book_class.py
+
 
 class Book:
     def __init__(self, title, author, year):
@@ -17,9 +17,9 @@ class Book:
     
     def __repr__(self):
         """Official representation for recreating the object."""
-        return f"Book('{self.title}', '{self.author}', {self.year})"
+        return f"Book({self.title}, '{self.author}', {self.year})"
 
-# Example usage:
+
 if __name__ == "__main__":
     # Creating an instance of the Book class
     book1 = Book("1984", "George Orwell", 1949)
