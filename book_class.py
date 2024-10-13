@@ -1,5 +1,3 @@
-
-
 class Book:
     def __init__(self, title, author, year):
         "Constructor"
@@ -32,3 +30,4 @@ if __name__ == "__main__":
     
     # Deleting the book1 object
     del book1
+
