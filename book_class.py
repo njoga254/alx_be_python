@@ -25,7 +25,7 @@ if __name__ == "__main__":
     book1 = Book("1984", "George Orwell", 1949)
     
     # Informal string representation
-    print(str(book1))  # Output: '1984' by George Orwell, published in 1949
+    print(str(book1))  # Output: 1984 by George Orwell, published in 1949
     
     # Official string representation
     print(repr(book1))  # Output: Book('1984', 'George Orwell', 1949)
